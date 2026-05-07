@@ -73,7 +73,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <input class="form-control mb-2" type="number" name="harga" value="<?= htmlspecialchars($data['harga']) ?>">
     <input class="form-control mb-2" name="lokasi" value="<?= htmlspecialchars($data['lokasi']) ?>">
 
-    <!-- tampilkan waktu -->
     <p><strong>Waktu Ditambahkan:</strong> <?= $data['created_at'] ?></p>
 
     <button class="btn btn-warning" name="update">Update</button>
